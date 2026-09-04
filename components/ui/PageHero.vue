@@ -1,0 +1,2 @@
+<script setup lang="ts">defineProps<{ eyebrow: string; title: string; text: string }>()</script>
+<template><section class="page-hero"><div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div><div class="container"><div class="breadcrumb"><NuxtLink to="/">Beranda</NuxtLink><span>/</span><span>{{ eyebrow }}</span></div><span class="eyebrow light">{{ eyebrow }}</span><h1>{{ title }}</h1><p>{{ text }}</p></div></section></template>

@@ -1,0 +1,2 @@
+<script setup lang="ts">defineProps<{ item: any }>()</script>
+<template><article class="service-card"><div class="service-icon"><BaseIcon :name="item.icon" /></div><span class="card-tag">{{ item.category }}</span><h3>{{ item.title }}</h3><p>{{ item.text }}</p><div class="service-bottom"><strong>{{ item.price }}</strong><NuxtLink to="/kontak" aria-label="Konsultasi"><BaseIcon name="arrow" :size="19" /></NuxtLink></div></article></template>
