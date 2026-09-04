@@ -4,11 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       htmlAttrs: { lang: 'id' },
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'theme-color', content: '#07111f' },
+        { name: 'theme-color', content: '#080d24' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
