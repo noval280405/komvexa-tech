@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { services, whatsapp } from '~/data/site'
 
-usePageSeo({ title: 'Pembuatan Website & Layanan IT Support | KOMVEXA TECH', description: 'Jasa pembuatan website portofolio, sistem admin, e-commerce, serta service laptop, komputer, upgrade dan IT support.', path: '/layanan', image: '/images/laptop-cleaning-detail.png' })
+usePageSeo({ title: 'Pembuatan Website Portofolio & IT Support | KOMVEXA TECH', description: 'Jasa pembuatan website portofolio serta service laptop, komputer, upgrade dan IT support.', path: '/layanan', image: '/images/laptop-cleaning-detail.png' })
 
 const filter = ref('Semua')
 const cats = ['Semua', 'Website', 'Software', 'Maintenance', 'Upgrade', 'Hardware', 'Recovery', 'PC', 'Home Service']
@@ -40,12 +40,6 @@ const steps = [
         </div>
         <div id="service-results" class="services-grid">
           <UiServiceCard v-for="service in filtered" :key="service.title" :item="service" />
-        </div>
-
-        <div class="consultation-note">
-          <span class="consultation-icon"><BaseIcon name="chat" :size="24" /></span>
-          <div><h3>Belum tahu layanan yang tepat?</h3><p>Ceritakan ide website atau kebutuhan IT Anda. Kami bantu arahkan langkah selanjutnya.</p></div>
-          <a :href="whatsapp" class="btn">Konsultasi via WhatsApp <BaseIcon name="arrow" :size="18" /></a>
         </div>
       </div>
     </section>
