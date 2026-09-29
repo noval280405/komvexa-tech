@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { services, whatsapp } from '~/data/site'
 
-usePageSeo({ title: 'Layanan Service Laptop & Komputer Tangerang | KOMVEXA TECH', description: 'Layanan lengkap service laptop Tangerang: install Windows, cleaning, upgrade SSD dan RAM, recovery data, perbaikan hardware, rakit PC, dan home service.', path: '/layanan', image: '/images/laptop-cleaning-detail.png' })
+usePageSeo({ title: 'Pembuatan Website & Layanan IT Support | KOMVEXA TECH', description: 'Jasa pembuatan website portofolio, sistem admin, e-commerce, serta service laptop, komputer, upgrade dan IT support.', path: '/layanan', image: '/images/laptop-cleaning-detail.png' })
 
 const filter = ref('Semua')
-const cats = ['Semua', 'Software', 'Maintenance', 'Upgrade', 'Hardware', 'Recovery', 'PC', 'Home Service']
+const cats = ['Semua', 'Website', 'Software', 'Maintenance', 'Upgrade', 'Hardware', 'Recovery', 'PC', 'Home Service']
 const filtered = computed(() => filter.value === 'Semua' ? services : services.filter(s => s.category === filter.value))
 const categoryCount = (category: string) => category === 'Semua' ? services.length : services.filter(s => s.category === category).length
 const steps = [
@@ -16,15 +16,15 @@ const steps = [
 
 <template>
   <div class="services-page">
-    <UiPageHero eyebrow="Layanan" title="Solusi lengkap untuk perangkat Anda." text="Penanganan software, hardware, upgrade, hingga maintenance dengan proses yang jelas dan mudah dipahami." />
+    <UiPageHero eyebrow="Layanan" title="Website, sistem bisnis, dan IT support." text="Kami membangun solusi digital sesuai kebutuhan bisnis serta membantu service dan dukungan perangkat dengan proses yang jelas." />
 
     <section class="service-directory" aria-labelledby="directory-title">
       <div class="container">
         <div class="directory-heading">
           <div>
             <span class="eyebrow">Perangkat lebih optimal</span>
-            <h2 id="directory-title">Apa yang bisa kami bantu?</h2>
-            <p>Pilih layanan sesuai kebutuhan. Kami bantu cek kendalanya sebelum mulai pengerjaan.</p>
+            <h2 id="directory-title">Solusi untuk bisnis dan perangkat Anda.</h2>
+            <p>Pilih layanan digital atau dukungan IT. Kita bahas kebutuhan dan ruang lingkupnya bersama.</p>
           </div>
           <NuxtLink to="/harga" class="directory-price">Lihat daftar harga <BaseIcon name="arrow" :size="18" /></NuxtLink>
         </div>
@@ -44,7 +44,7 @@ const steps = [
 
         <div class="consultation-note">
           <span class="consultation-icon"><BaseIcon name="chat" :size="24" /></span>
-          <div><h3>Belum tahu layanan yang tepat?</h3><p>Ceritakan kendala perangkat Anda. Kami bantu arahkan langkah selanjutnya.</p></div>
+          <div><h3>Belum tahu layanan yang tepat?</h3><p>Ceritakan ide website atau kebutuhan IT Anda. Kami bantu arahkan langkah selanjutnya.</p></div>
           <a :href="whatsapp" class="btn">Konsultasi via WhatsApp <BaseIcon name="arrow" :size="18" /></a>
         </div>
       </div>

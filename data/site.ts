@@ -1,13 +1,17 @@
 export const whatsapp = 'https://wa.me/6281234567890?text=Halo%20KOMVEXA%20TECH%2C%20saya%20melihat%20website%20KOMVEXA%20TECH%20dan%20ingin%20konsultasi%20mengenai%20masalah%20laptop%2Fkomputer%20saya.'
 
 export const nav = [
-  { label: 'Beranda', to: '/' }, { label: 'Tentang', to: '/tentang' },
-  { label: 'Layanan', to: '/layanan' }, { label: 'Harga', to: '/harga' },
-  { label: 'Portofolio', to: '/portfolio' }, { label: 'FAQ', to: '/faq' },
-  { label: 'Kontak', to: '/kontak' }
+  { label: 'Beranda', to: '/' }, { label: 'Layanan', to: '/layanan' },
+  { label: 'Portofolio', to: '/portfolio' }, { label: 'Tentang', to: '/tentang' },
+  { label: 'Harga', to: '/harga' },
+  { label: 'FAQ', to: '/faq' }, { label: 'Kontak', to: '/kontak' }
 ]
 
 export const services = [
+  { icon: 'app', category: 'Website', title: 'Website Portofolio & Company Profile', text: 'Website profesional untuk menampilkan profil, karya, layanan, dan kontak bisnis Anda.', price: 'Konsultasi kebutuhan' },
+  { icon: 'tool', category: 'Website', title: 'Website Sistem Admin', text: 'Dashboard admin sesuai alur kerja untuk mengelola data, konten, pesanan, atau operasional.', price: 'Konsultasi kebutuhan' },
+  { icon: 'pc', category: 'Website', title: 'Website E-commerce', text: 'Toko online dengan katalog produk, keranjang, dan alur pemesanan yang praktis.', price: 'Konsultasi kebutuhan' },
+  { icon: 'spark', category: 'Website', title: 'Website Bisnis & Landing Page', text: 'Halaman bisnis yang cepat, responsif, dan dirancang untuk memperkenalkan atau memasarkan layanan.', price: 'Konsultasi kebutuhan' },
   { icon: 'windows', category: 'Software', title: 'Install Ulang Windows', text: 'Windows 10/11, driver resmi, update, dan software dasar siap pakai.', price: 'Mulai Rp100.000' },
   { icon: 'app', category: 'Software', title: 'Install Software', text: 'Browser, Office, PDF reader, utility, dan driver sesuai kebutuhan.', price: 'Mulai Rp50.000' },
   { icon: 'spark', category: 'Maintenance', title: 'Cleaning Laptop', text: 'Pembersihan fan, debu, heatsink, dan pengecekan cooling system.', price: 'Mulai Rp75.000' },
