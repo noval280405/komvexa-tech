@@ -9,7 +9,7 @@ export const nav = [
 
 export const services = [
   { icon: 'app', category: 'Website', title: 'Website Portofolio & Company Profile', text: 'Website profesional untuk menampilkan profil, karya, layanan, dan kontak bisnis Anda.', price: 'Konsultasi kebutuhan' },
-  { icon: 'windows', category: 'Software', title: 'Install Ulang Windows', text: 'Windows 10/11, driver resmi, update, dan software dasar siap pakai.', price: 'Mulai Rp100.000' },
+  { icon: 'windows', category: 'Software', title: 'Install Ulang Windows', text: 'Windows 10/11, driver, update, dan instalasi Office (lisensi Office dari pelanggan).', price: 'Rp150.000' },
   { icon: 'app', category: 'Software', title: 'Install Software', text: 'Browser, Office, PDF reader, utility, dan driver sesuai kebutuhan.', price: 'Mulai Rp50.000' },
   { icon: 'spark', category: 'Maintenance', title: 'Cleaning Laptop', text: 'Pembersihan fan, debu, heatsink, dan pengecekan cooling system.', price: 'Mulai Rp75.000' },
   { icon: 'temp', category: 'Maintenance', title: 'Thermal Paste', text: 'Penggantian thermal paste untuk membantu menjaga suhu CPU dan GPU.', price: 'Mulai Rp100.000' },
@@ -17,15 +17,18 @@ export const services = [
   { icon: 'chip', category: 'Upgrade', title: 'Upgrade RAM', text: 'Pengecekan kompatibilitas, pemasangan RAM, dan stability testing.', price: 'Jasa mulai Rp75.000' },
   { icon: 'tool', category: 'Hardware', title: 'Perbaikan Hardware', text: 'Diagnosa mati total, charging, motherboard, keyboard, dan layar.', price: 'Pemeriksaan dahulu' },
   { icon: 'recover', category: 'Recovery', title: 'Recovery Data', text: 'Upaya pemulihan file dari media penyimpanan yang masih memungkinkan.', price: 'Mulai Rp200.000' },
-  { icon: 'pc', category: 'PC', title: 'Rakit & Upgrade PC', text: 'Konsultasi komponen, assembly, cable management, OS, dan testing.', price: 'Mulai Rp250.000' },
+  { icon: 'pc', category: 'PC', title: 'Rakit & Upgrade PC', text: 'Jasa pemasangan atau upgrade komponen PC dan pengecekan fungsi. Harga komponen terpisah.', price: 'Jasa mulai Rp75.000' },
   { icon: 'home', category: 'Home Service', title: 'Service Panggilan', text: 'Teknisi datang untuk PC desktop, setup, dan troubleshooting tertentu.', price: 'Mulai Rp100.000' }
 ]
 
 export const prices = [
-  ['Website Portofolio / Company Profile', 'Desain responsif, halaman profil, layanan, karya, dan kontak', 'Sesuai ruang lingkup'],
-  ['Install Windows', 'Windows 10/11 + driver dasar', 'Mulai Rp100.000'], ['Install Software', 'Software dasar sesuai kebutuhan', 'Mulai Rp50.000'],
+  ['Website Starter', 'One-page, desain responsif, profil singkat, dan tombol WhatsApp', 'Rp500.000'],
+  ['Website Basic', 'Hingga 3 halaman, desain responsif, layanan, dan kontak WhatsApp', 'Rp1.000.000'],
+  ['Website Plus', 'Hingga 5 halaman, desain responsif, galeri/portofolio, dan form kontak', 'Rp1.500.000'],
+  ['Install Ulang Windows', 'Windows 10/11, driver, update, dan instalasi Office (lisensi dari pelanggan)', 'Rp150.000'], ['Install Software', 'Software dasar sesuai kebutuhan', 'Mulai Rp50.000'],
   ['Cleaning Laptop', 'Fan, heatsink, dan debu', 'Mulai Rp75.000'], ['Thermal Paste', 'Penggantian paste CPU/GPU', 'Mulai Rp100.000'],
   ['Upgrade SSD', 'Jasa pasang dan testing', 'Mulai Rp100.000'], ['Upgrade RAM', 'Jasa pasang dan testing', 'Mulai Rp75.000'],
+  ['Upgrade Komponen PC', 'Jasa pemasangan/upgrade dan pengecekan; harga komponen terpisah', 'Mulai Rp75.000'],
   ['Recovery Data', 'Tergantung kondisi storage', 'Mulai Rp200.000'], ['Rakit PC', 'Assembly dan testing', 'Mulai Rp250.000'],
   ['Home Service', 'Belum termasuk biaya kunjungan', 'Mulai Rp100.000']
 ]
