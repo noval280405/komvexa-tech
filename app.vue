@@ -8,7 +8,7 @@ useHead({
       name: 'KOMVEXA TECH',
       url: 'https://komvexatech.com',
       image: 'https://komvexatech.com/images/technician-repairing-laptop.png',
-      telephone: '+62-812-3456-7890',
+      telephone: '+62-858-8207-9981',
       email: 'halo@komvexatech.com',
       description: 'Jasa service laptop dan komputer, upgrade SSD dan RAM, instalasi Windows, cleaning, recovery data, dan rakit PC di Tangerang.',
       address: { '@type': 'PostalAddress', addressLocality: 'Tangerang', addressRegion: 'Banten', addressCountry: 'ID' },

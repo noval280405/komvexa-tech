@@ -1,4 +1,4 @@
-export const whatsapp = 'https://wa.me/6281234567890?text=Halo%20KOMVEXA%20TECH%2C%20saya%20melihat%20website%20KOMVEXA%20TECH%20dan%20ingin%20konsultasi%20mengenai%20masalah%20laptop%2Fkomputer%20saya.'
+export const whatsapp = 'https://wa.me/6285882079981?text=Halo%20KOMVEXA%20TECH%2C%20saya%20melihat%20website%20KOMVEXA%20TECH%20dan%20ingin%20konsultasi%20mengenai%20masalah%20laptop%2Fkomputer%20saya.'
 
 export const nav = [
   { label: 'Beranda', to: '/' }, { label: 'Layanan', to: '/layanan' },
