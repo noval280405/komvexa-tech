@@ -9,7 +9,7 @@ useHead({
       url: 'https://komvexatech.com',
       image: 'https://komvexatech.com/images/technician-repairing-laptop.png',
       telephone: '+62-858-8207-9981',
-      email: 'halo@komvexatech.com',
+      email: 'muhammadnoval280405@gmail.com',
       description: 'Jasa pembuatan website bisnis, service laptop dan komputer, install ulang Windows, upgrade, dan penggantian sparepart sesuai ketersediaan di Kota Tangerang.',
       address: { '@type': 'PostalAddress', addressLocality: 'Kota Tangerang', addressRegion: 'Banten', addressCountry: 'ID' },
       areaServed: ['Kota Tangerang', 'Tangerang Selatan', 'Karawaci', 'Cikokol', 'Cipondoh', 'Ciledug'],
