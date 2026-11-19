@@ -16,7 +16,7 @@ onBeforeUnmount(() => {
 </script>
 <template>
   <header class="navbar"><div class="container nav-inner">
-    <NuxtLink to="/" class="brand" aria-label="KOMVEXA TECH Beranda"><span class="brand-mark"><i></i><i></i></span><span>KOMVEXA <b>TECH</b><small>DIGITAL & IT SOLUTIONS</small></span></NuxtLink>
+    <NuxtLink to="/" class="brand" aria-label="KOMVEXA TECH Beranda"><img class="brand-logo" src="/komvexa-mark.png" alt="" /><span>KOMVEXA <b>TECH</b><small>DIGITAL & IT SOLUTIONS</small></span></NuxtLink>
     <nav class="desktop-nav" aria-label="Navigasi utama"><NuxtLink v-for="item in nav" :key="item.to" :to="item.to">{{ item.label }}</NuxtLink></nav>
     <a :href="whatsapp" target="_blank" rel="noopener" class="btn btn-sm nav-contact nav-contact-desktop">Konsultasi <BaseIcon name="arrow" :size="17" /></a>
     <button class="menu-btn" :aria-expanded="open" @click="open = !open" :aria-label="open ? 'Tutup menu' : 'Buka menu'"><BaseIcon :name="open ? 'close' : 'menu'" /></button>
